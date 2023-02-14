@@ -12,7 +12,7 @@ def load_data_byname(name):
 
 myname = st.text_input("name: ")
 if (myname):
-filterbyname = load_data_byname(myname)#call the function
-count_row = filterbyname.shape[0]
-st.write(f"Total names : {count_row}")
-st.dataframe(filterbyname)
+    filterbyname = load_data_byname(myname)#call the function
+    count_row = filterbyname.shape[0]
+    st.write(f"Total names : {count_row}")
+    st.dataframe(filterbyname)

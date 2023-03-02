@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('Netflix App')
 
-DATA_URL=('movies.csv')
+DATA_URL="movies.csv"
 
 @st.cache
 def load_data(nrows):

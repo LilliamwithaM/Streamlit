@@ -51,5 +51,3 @@ st.write(f"Number of Records With Fare Between {fare_min} and {fare_max}: {subse
 
 # Display of the dataset 
 st.dataframe(subset_fare)
-
-

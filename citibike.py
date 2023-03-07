@@ -20,7 +20,7 @@ def load_data(nrows):
     data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
     return data
 
-data_load_state = st.text('Lilliam Romero Reys - zs20006765@estudiantes.uv.mx')
+data_load_state = st.text('Lilliam Romero Reyes - zs20006765@estudiantes.uv.mx')
 data = load_data(500)
 st.header("Raw data")
 
